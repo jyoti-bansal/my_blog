@@ -1,9 +1,23 @@
 import React from 'react'
+import { Navbar } from '../components/Navbar'
 import "../css/main.css"
 
 const Projects = () => {
   return (
-    <h1>Projects</h1>
+    <>
+    <header className='projects-page'>
+
+    
+    <div>
+        <Navbar/>
+      <h2 className='project'>Projects</h2>
+      
+    </div>
+    </header>
+    <footer className='projects-page'>
+
+    </footer>
+    </>
   )
 }
 

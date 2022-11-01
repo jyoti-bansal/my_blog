@@ -1,8 +1,10 @@
 import React from 'react'
+import { Navbar } from '../components/Navbar'
 
 const Contact = () => {
   return (
     <div>
+      <Navbar/>
         <section className="contact-page">
         <article className="contact-form">
           <h3>get in touch</h3>
@@ -33,6 +35,7 @@ const Contact = () => {
           </form>
         </article>
       </section>
+      <footer className='contact-page'></footer>
     </div>
   )
 }

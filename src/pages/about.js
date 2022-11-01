@@ -3,6 +3,7 @@ import {Link} from "gatsby"
 import {graphql,useStaticQuery} from "gatsby"
 import Image from "gatsby-image"
 import "../css/main.css"
+import { Navbar } from '../components/Navbar'
 
 const About = () => {
     const {
@@ -12,8 +13,11 @@ const About = () => {
   } = useStaticQuery(query)
 
   return (
+   
     <header className="about-page">
+       
       <div className="section-center about-center">
+        <Navbar/>
          <Image fluid={fluid} className="about-img" />
         <article className="about-text">
             <p>

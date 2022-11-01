@@ -11,7 +11,7 @@ export const Navbar = () => {
     <nav className='navbar'>
         <div className='nav-center'>
             <div className='nav-header'>
-                <h1>Jyoti's website</h1>
+                <h2 className='website'>Jyoti's website</h2>
                 {/* <img src={dev} alt="dev"/> */}
                 <button type="button" className='toggle-btn'>
                   <FaAlignRight></FaAlignRight>
