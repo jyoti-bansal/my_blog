@@ -1,7 +1,7 @@
 ---
-title: Awesome Blog Post
-author: Jyoti
-date: 2022-10-28
+title: Awesome Blog Post-2
+author: Kannu
+date: 2022-10-31
 ---
 
 ## Introduction to my blog post
